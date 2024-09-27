@@ -24,9 +24,11 @@ public class HomeTask4 {
         profitOfDays = totalAmount / dayCount;
 
         System.out.printf(
-            "Product No %d: %s, \n" +
-            "total sales for %d days is %s %.2f, \n" +
-            "sales by day is %s, %.2f. \n",
+            """
+            Product No %d: %s,
+            total sales for %d days is %s %.2f,
+            sales by day is %s %.2f.
+            """,
             productNumb++, productType,
             dayCount, currency, totalAmount,
             currency, profitOfDays
@@ -49,9 +51,11 @@ public class HomeTask4 {
         profitOfDays = totalAmount / dayCount;
 
         System.out.printf(
-            "Product No %d: %s, \n" +
-            "total sales for %d days is %s %.2f, \n" +
-            "sales by day is %s %.2f. \n",
+            """
+            Product No %d: %s,
+            total sales for %d days is %s %.2f,
+            sales by day is %s %.2f.
+            """,
             productNumb++, productType,
             dayCount, currency, totalAmount,
             currency, profitOfDays
